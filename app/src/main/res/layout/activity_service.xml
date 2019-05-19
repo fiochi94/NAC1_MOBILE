@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20B361">
+
+    <SearchView
+        android:layout_width="388dp"
+        android:layout_height="50dp"
+        android:background="#FDE3E3EC"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="161dp"
+        android:layout_height="38dp"
+        android:text="Search Service"
+        android:textAlignment="center"
+        android:textColor="#F8F1ECEB"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+</android.support.constraint.ConstraintLayout>
